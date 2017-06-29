@@ -1,0 +1,218 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6d90e798-15dc-422d-921b-22db07f2bc56" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBO ETL BUSES5</ID>
+  <Name>CUBO ETL BUSES5</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="2faf9a7e-d206-4036-9187-9110562d246b">
+      <ID>Dim Cliente</ID>
+      <Name>Dim Cliente</Name>
+      <DimensionID>Dim Cliente</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d65c38c9-fec4-4e8c-b4d4-1676b3aa7760">
+          <AttributeID>E Cliente</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9980a291-9c6a-4b76-8123-639372b9b54d">
+      <ID>Dim Turno</ID>
+      <Name>Dim Turno</Name>
+      <DimensionID>Dim Turno</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ca58d135-a4a5-4ad4-83db-6de0b3db13fb">
+          <AttributeID>E Turno</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="707b3b2e-0ec4-4895-a921-79f634049db0">
+      <ID>Dim Empleado</ID>
+      <Name>Dim Empleado</Name>
+      <DimensionID>Dim Empleado</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e6b70a90-8323-4984-980a-d7edfd5ad480">
+          <AttributeID>E Empleado</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8be81b8d-7711-476d-93a6-5d40eca32acb">
+      <ID>Dim Agencia</ID>
+      <Name>Dim Agencia</Name>
+      <DimensionID>Dim Agencia</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fc12ec53-508e-4382-aae6-befd615e352b">
+          <AttributeID>Id Agencia</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="72821f54-1eb0-4fce-9914-f5ede4e3bd4e">
+      <ID>Dim Tiempo</ID>
+      <Name>Dim Tiempo</Name>
+      <DimensionID>Dim Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="62ad50b7-4a63-4cb3-b9e9-50393af83f16">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="58636699-8e80-49a1-98ab-2fd5b8da73dc">
+      <ID>Total Boletos</ID>
+      <Name>Total Boletos</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="091a8fc4-9c76-45e8-96cc-d8d1a26be1ef">
+          <ID>Total</ID>
+          <Name>Total</Name>
+          <Source dwd:design-time-name="eb01c0d9-8f4d-4eb3-b0b6-385c75e47c28">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8bf22d4a-934e-4c92-843e-47c2b2b7c056">
+              <TableID>dbo_Total_Boletos</TableID>
+              <ColumnID>Total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ba7e2353-0d01-4ffe-baf7-f2b474e9a02c">
+          <CubeDimensionID>Dim Cliente</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d97c5e0a-1210-48c7-b376-94a3b709b9ef">
+              <AttributeID>E Cliente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1957925d-8157-4697-908c-def7d36393f1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="328b699a-adb5-4d71-8bea-102913699d90">
+                    <TableID>dbo_Total_Boletos</TableID>
+                    <ColumnID>ECliente</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="09b8f4e0-4c26-4b65-863d-92fcc8a68bcc">
+          <CubeDimensionID>Dim Turno</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="992f1d3c-a35a-445a-96ec-294d52987dee">
+              <AttributeID>E Turno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="24eeaaec-05f6-48f2-ab1b-73b863990354">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="93468be8-60c7-40f0-92f9-02d26e6f43c3">
+                    <TableID>dbo_Total_Boletos</TableID>
+                    <ColumnID>ETurno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4a434e01-3330-47e0-a435-7b84f2ff28aa">
+          <CubeDimensionID>Dim Empleado</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6b50241a-6916-48c5-be7b-3af5a9b6e05a">
+              <AttributeID>E Empleado</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="799054bf-a5f3-4546-a890-7733f247f976">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b0a25501-9e27-45ca-b924-1a5f2e4bf1ab">
+                    <TableID>dbo_Total_Boletos</TableID>
+                    <ColumnID>EEmpleado</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fe6f3a57-4020-4507-9532-0d3ec6b16af6">
+          <CubeDimensionID>Dim Agencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="747d90e7-7552-40e9-910c-74571bc05c8e">
+              <AttributeID>Id Agencia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="11fa812c-65ee-4db4-8b00-38b8d2720751">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9505e02c-40ed-45c3-bcc6-82b924e99a5a">
+                    <TableID>dbo_Total_Boletos</TableID>
+                    <ColumnID>Id_Agencia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="06e4d4ff-4869-489c-8450-6dc2f373b2cf">
+          <CubeDimensionID>Dim Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9b27cc48-340c-4e56-9da7-4f805a331244">
+              <AttributeID>Id Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2e9b02c7-3783-459b-8f93-8eebe31bafff">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a6946db-c56c-4939-b1aa-99c09e28fada">
+                    <TableID>dbo_Total_Boletos</TableID>
+                    <ColumnID>IdFecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ff9ef055-a058-493a-962f-17abf0eff133">
+    <DataSourceViewID>VISTA ETL BUSES5</DataSourceViewID>
+  </Source>
+</Cube>

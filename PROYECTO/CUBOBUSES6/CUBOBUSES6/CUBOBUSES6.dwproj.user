@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>ETL BUSES5</Id>
+            <Name>ETL BUSES5</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYUyAERt4DkynXfBYHjheAAAAAAAWAAAARQBUAEwAIABCAFUAUwBFAFMANQAAABBmAAAAAQAAIAAAAFIZo0Ii77pdiFwA2VKpKtcaYvPKpKbk6XvQqw6/SK/PAAAAAA6AAAAAAgAAIAAAAPKO0TNgEhHOojGOMiiRjj1anQftOH3u/3Tu2K/b7mAqEAAAAO80I2Qy9Edmft0bq05gW1dAAAAAL62XQewj6troABVcgvlqR5NUOwavhCpMXVRaMLWNyMB5vQEjDV+rTYZV/HGnf+V4UtRlBhqtrbXRpl38HzG6Eg==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>ETL BUSES5</Id>
+            <Name>ETL BUSES5</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYUyAERt4DkynXfBYHjheAAAAAAAWAAAARQBUAEwAIABCAFUAUwBFAFMANQAAABBmAAAAAQAAIAAAAJRokwC81hgjjRxb6UGGNSqjiLYzYsUw81ntsp7ZWUhLAAAAAA6AAAAAAgAAIAAAAPwEJexWzRacFb6cyWbtjfaLBPOEb6W/d9DxgwKYDem/EAAAALTNLU+4dIOMzMS1kIwc0cxAAAAAapQWdNGRlIQGJMRc3EJt0zc5a+DuGJ6yvh76VA4GzkBu6DeV2TraF/FXoUT6pLV2y7smngRXtzopJs72HIq2DA==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>CUBOBUSES6</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
